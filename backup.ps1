@@ -15,8 +15,6 @@ $ErrorActionPreference = 'Continue'
 # ----------------------------------------------------------------------------
 # Raiz do C:\
 $ExcluirRaiz = @('Windows', 'Program Files', 'Program Files (x86)', 'ProgramData', 'Users', 'Usuarios', 'Recovery', 'System Volume Information', '$Recycle.Bin', 'PerfLogs')
-# Exemplo de lista específica da máquina de testes (descomente e ajuste se precisar):
-# $ExcluirRaiz += @('Adjustment Program', 'Elgin', 'ESD', 'HP_LaserJet_Pro_MFP_M426f-M427f', 'inetpub', 'LJP1100_P1560_P1600_Full_Solution', 'Log Files', 'M1130MFP_M1210MFP_Full_Solution', 'NVIDIA', 'Seagull', 'VM-Discos', 'ZD10-6-26-28275', 'HPLJP1000_P1500_Series.log', 'rufus-4.15.exe')
 
 # Pastas dentro de C:\Users
 $ExcluirUsuarios = @('Public', 'Público')
